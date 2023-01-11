@@ -1,0 +1,95 @@
+html{
+  box-sizing: border-box;
+  font-family:"Arial";
+}
+
+*, *:before, *after{
+  box-sizing: inhert;
+}
+
+.blue{
+  color: teal;
+}
+
+.lime{
+  color:limegreen;
+}
+
+.white{
+  color: white;
+}
+
+.top-container p{
+  color:grey;
+}
+
+.btn{
+  margin:5px;
+  width:70%;
+  height:2rem;
+  background-color: limegreen;
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color:white;
+  color:black;
+  box-shadow: 2px 3px 7px 0px;
+}
+
+ul{
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  line-height: 23px;
+}
+
+.frequency{
+  position:relative;
+  top: -4px;
+}
+
+.price,.frequency{
+  display:inline-block; 
+  
+}
+.container{
+  box-shadow: 2px 3px 7px 0px;
+  width:600px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.top-container{
+  height:40%;
+  width: 90%;
+  padding:20px;
+  }
+
+.bottom-container{
+  display: flex;
+  height:60%;
+  width: 100%;
+  
+}
+
+.bottom-left{
+  flex: 50%;
+  background-color: teal;
+  padding:20px;
+}
+
+.bottom-right{
+  flex:50%;
+  background-color: grey;
+  padding:20px;
+}
+
+.bottom-left, .bottom-right{
+  text-align: center;
+  color: white;
+  
+}
